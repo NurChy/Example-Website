@@ -1,0 +1,67 @@
+.body-service{
+    background-color: #546105;
+}
+
+.img-ser{
+    width: 300px;
+    height: 400px;
+}
+
+.ser-5{
+    background-color: white;
+}
+
+.col-ser:hover{
+	background:#006039;
+	transition: all 0.6s ease;
+	box-shadow: inset 0 0 0 23px #006039;
+    border-radius: 20px;
+}
+
+.img-ser:hover{
+    width:200px;
+    height: 300px
+}
+
+@media (max-width:700px) {
+    .container{
+        max-width: 650px;
+    }
+}
+
+footer {
+    background-color: #006039;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fcontact-info h3,
+.fsocial-media h3 {
+    margin-bottom: 10px;
+}
+
+.fcontact-info p {
+    margin: 5px 0;
+}
+
+.fsocial-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.fsocial-media li {
+    margin-right: 10px;
+}
+
+.fsocial-media img {
+    width: 30px;
+    height: 30px;
+}
